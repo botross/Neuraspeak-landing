@@ -382,7 +382,7 @@ export default function LandingPage() {
             rewriting what "global" means.
           </motion.p>
 
-          <motion.div 
+          {/* <motion.div 
             className="mt-10 flex flex-wrap items-center justify-center gap-4"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -415,7 +415,7 @@ export default function LandingPage() {
                 Coming to Android <Rocket className="h-4 w-4" />
               </Link>
             </motion.div>
-          </motion.div>
+          </motion.div> */}
 
           <motion.div 
             className="mt-16 grid gap-6 sm:grid-cols-3"
@@ -1098,7 +1098,7 @@ export default function LandingPage() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.8, delay: 0.4 }}
                 >
-                  <motion.div
+                  {/* <motion.div
                     whileHover={{ scale: 1.08, y: -3 }}
                     whileTap={{ scale: 0.95 }}
                     transition={{ type: 'spring', stiffness: 400, damping: 17 }}
@@ -1111,7 +1111,7 @@ export default function LandingPage() {
                       <span className="relative">Get NeuraSpeak for iOS</span>
                       <ArrowRight className="relative h-5 w-5 transition group-hover:translate-x-1" />
                     </Link>
-                  </motion.div>
+                  </motion.div> */}
 
                   <motion.div
                     whileHover={{ scale: 1.08, y: -3 }}
