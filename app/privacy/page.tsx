@@ -101,6 +101,14 @@ const sections = [
     ),
   },
   {
+    title: '5.1 Google User Data',
+    body: (
+      <p className="text-midnight-200/90">
+        If you connect a Google account, NeuraSpeak only accesses the information required to deliver the specific feature you authorize—such as authentication or cloud synchronization. We never store, share, or use Google user data for any purpose beyond that immediate functionality, and you can revoke NeuraSpeak’s access at any time in your Google Account settings.
+      </p>
+    ),
+  },
+  {
     title: '6. Data Retention',
     body: (
       <p className="text-midnight-200/90">
@@ -168,8 +176,6 @@ const sections = [
     body: (
       <div className="space-y-2 text-midnight-200/90">
         <p>NeuraSpeak Inc.</p>
-        <p>548 Market St, PMB 12345</p>
-        <p>San Francisco, CA 94104</p>
         <p>
           Email:{' '}
           <a className="text-neon-200 underline decoration-dotted underline-offset-2 transition hover:text-neon-100" href="mailto:privacy@neuraspeak.co">
@@ -192,10 +198,13 @@ export default function PrivacyPolicyPage() {
               &larr; Back to NeuraSpeak
             </Link>
             <p className="text-xs font-semibold uppercase tracking-[0.35em] text-neon-400/80">Privacy Policy</p>
+            <p className="text-base font-medium text-midnight-100">
+              Your privacy matters to us. This Privacy Policy explains what information we collect, how we use it, and the choices you have.
+            </p>
             <h1 className="text-4xl font-bold text-white sm:text-5xl">Your privacy, articulated with precision</h1>
             <p className="text-sm text-midnight-300">Last updated: {lastUpdated}</p>
             <p className="text-base leading-relaxed text-midnight-200/90">
-              We built NeuraSpeak so you can communicate freely without losing control over your personal information. This policy outlines how your
+              We built NeuraSpeak to help you communicate freely — while keeping you in control of your personal information. This policy outlines how your
               data flows through our systems, the safeguards we apply, and the choices you have to manage it.
             </p>
           </header>
