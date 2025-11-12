@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import React from 'react';
+import Link from 'next/link';
 import { clsx } from 'clsx';
 
 export const metadata = {
@@ -33,12 +34,12 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
                 All rights reserved.
               </p>
               <div className="flex gap-4">
-                <a className="hover:text-neon-300 transition" href="mailto:support@your-domain.com">
+                <a className="hover:text-neon-300 transition" href="mailto:hello@neuraspeak.co">
                   Support
                 </a>
-                <a className="hover:text-neon-300 transition" href="https://your-domain.com/privacy" target="_blank" rel="noreferrer">
-                  Privacy
-                </a>
+                <Link className="hover:text-neon-300 transition" href="/privacy">
+                  Privacy Policy
+                </Link>
               </div>
             </div>
           </footer>
