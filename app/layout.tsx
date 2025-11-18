@@ -40,6 +40,9 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
                 <Link className="hover:text-neon-300 transition" href="/privacy">
                   Privacy Policy
                 </Link>
+                <Link className="hover:text-neon-300 transition" href="/terms">
+                  Terms of Service
+                </Link>
               </div>
             </div>
           </footer>
