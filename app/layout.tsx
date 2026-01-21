@@ -6,6 +6,11 @@ import { clsx } from 'clsx';
 export const metadata = {
   title: 'NeuraSpeak',
   description:'NeuraSpeak is the ultra-premium live translation studio that hears, understands, and responds faster than you can switch languages. Crafted for founders, diplomats, creators, and every traveler rewriting what "global" means.',
+  verification: {
+    other: {
+      'facebook-domain-verification': 'ccxnt86xuekflovx4yzp4vj97am87r',
+    },
+  },
 };
 
 type RootLayoutProps = {
